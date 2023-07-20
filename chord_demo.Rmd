@@ -1,7 +1,7 @@
 ---
-title: "Chord Demo"
-author: "Randy Swaty"
-date: "2023-07-20"
+title: "Hiawatha National Forest Chord Demo"
+author: ""
+date: ""
 output: html_document
 ---
 
@@ -15,13 +15,6 @@ library(tidyverse)
 
 ```
 
-### Comparing Past vs. Present Conditions
-
-There are multiple ways to compare and visualize past vs. present conditions with LANDFIRE data.  One way is to "stack" LANDFIRE's [Biophysical Settings](https://landfire.gov/bps.php){target="blank"} and [Existing Vegetation Type](https://landfire.gov/evt.php){target="blank"} datasets so that each pixel or 30m x 30m square on a map gets both past and current ecosystem labels.  We can then make a 'chord' diagram like the one below to depict trends.
-
-This chord diagram is for the proclamation area of Hiawatha National Forest in the eastern half of the Upper Peninsula of Michigan. Hover your cursor over the outside segments, or on the inside bands to explore.  Since this is a National Forest there has not been much conversion of natural vegetation to agriculture or developed land uses. 
-
-<br>
 
 
 ```{r chord, echo=FALSE, message=FALSE, warning=FALSE, include=FALSE}
